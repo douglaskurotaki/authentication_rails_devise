@@ -8,6 +8,8 @@ class User < ActiveRecord::Base
          :confirmable, :trackable
   include DeviseTokenAuth::Concerns::User
 
+  has_many :articles, dependent: :destroy
+
   before_validation :set_uid
 
   private
