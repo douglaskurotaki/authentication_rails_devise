@@ -71,7 +71,7 @@ Rails.application.configure do
   # Devise
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
-  # email
+  # emaill
   config.action_mailer.default_url_options = {
     host: 'course-blog-rails-api.herokuapp.com'
   }
