@@ -14,5 +14,5 @@ test:
 production:
   <<: *default
   database: blog_api_production
-  username: postgres
+  username: blog_api
   password: <%= ENV['BLOG_API_DATABASE_PASSWORD'] %>
